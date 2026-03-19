@@ -53,7 +53,9 @@ export default function Sidebar() {
               key={item.label}
               href={item.href}
               className="text-[#666] text-[15px] no-underline transition-colors hover:text-[#1a1a1a]"
-              {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+              {...(item.external
+                ? { target: "_blank", rel: "noopener noreferrer" }
+                : {})}
             >
               {item.label}
             </a>
