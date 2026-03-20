@@ -5,9 +5,13 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-10 py-6 bg-white">
       <Link
         href="/"
-        className="text-[#e13400] text-[16px] font-medium no-underline transition-opacity hover:opacity-50"
+        className="transition-opacity hover:opacity-50"
       >
-        Nicole Yu
+        <img
+          src="/logo.png"
+          alt="Nicole Yu"
+          className="h-8 w-auto"
+        />
       </Link>
     </nav>
   );

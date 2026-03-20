@@ -5,6 +5,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 export const metadata: Metadata = {
   title: "Nicole Yu — UX Designer",
   description: "Portfolio of Nicole Yu, UX Designer",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -14,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+      </head>
       <body>
         <TooltipProvider>{children}</TooltipProvider>
       </body>

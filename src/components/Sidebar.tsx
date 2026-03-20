@@ -30,9 +30,16 @@ const menuGroups = [
   },
 ];
 
-export default function Sidebar() {
+interface SidebarProps {
+  hidden?: boolean;
+}
+
+export default function Sidebar({ hidden }: SidebarProps) {
   return (
-    <aside className="fixed top-[140px] left-10 z-40 flex flex-col gap-10">
+    <aside
+      className={`fixed top-[140px] left-10 z-40 flex flex-col gap-10 transition-all duration-500 ${hidden ? "opacity-0 pointer-events-none translate-x-[-20px]" : "opacity-100"
+        }`}
+    >
       {menuGroups.map((group) => (
         <div key={group.label} className="flex flex-col gap-4">
           {group.href ? (

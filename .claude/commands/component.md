@@ -3,6 +3,7 @@ Create a new React component for the portfolio site.
 Component name: $ARGUMENTS
 
 Follow these conventions:
+
 1. Create the file at `src/components/<ComponentName>.tsx`
 2. Use TypeScript with explicit prop types defined as an interface above the component
 3. Use Tailwind utility classes for all styling — no inline styles
