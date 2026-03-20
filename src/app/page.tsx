@@ -33,8 +33,8 @@ export default function Home() {
     <>
       <Navbar />
       <Sidebar hidden={isFooterVisible} />
-      <main className="ml-[200px] pt-[50px] px-10 min-h-screen flex flex-col items-center">
-        <section className="flex flex-col items-center text-center max-w-2xl mt-[38px] mb-20">
+      <main className="ml-[200px] pt-[40px] px-10 min-h-screen flex flex-col items-center">
+        <section className="flex flex-col items-center text-center max-w-2xl mt-[0px] mb-[150px]">
           <Image
             src="/hero-girl-dog.png"
             alt="Hero Illustration"
@@ -60,6 +60,7 @@ export default function Home() {
             industry="Community Technology"
             role="Led the design of the public launch of Mainstay, Opendoor's enterprise branch, from the full website experience to brand identity."
             visitSiteUrl="#"
+            videoThumbnail="/tapin-thumbnail.mp4"
           />
         </section>
 
@@ -71,6 +72,7 @@ export default function Home() {
             industry="Finance Technology"
             role="Redesigned the core investment platform to improve user engagement and simplify complex financial data visualization for retail investors."
             visitSiteUrl="https://contra.com/p/LOgceg2b-fintech-ui-budget-feature?r=nicole_cwzib6rq"
+            videoThumbnail="/koho-thumbnail.mp4"
           />
         </section>
 
@@ -82,6 +84,7 @@ export default function Home() {
             industry="Health Technology"
             role="Stay tuned for more case studies and design projects currently in development."
             visitSiteUrl="#"
+            videoThumbnail="/txf-thumbnail.mp4"
           />
         </section>
 
