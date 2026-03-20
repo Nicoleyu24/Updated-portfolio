@@ -12,12 +12,15 @@ export default function Home() {
   const footerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      setIsFooterVisible(entry.isIntersecting);
-    }, {
-      threshold: 0,
-      rootMargin: "0px 0px -100px 0px" // Trigger slightly before footer hits bottom
-    });
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsFooterVisible(entry.isIntersecting);
+      },
+      {
+        threshold: 0,
+        rootMargin: "0px 0px -100px 0px", // Trigger slightly before footer hits bottom
+      },
+    );
 
     if (footerRef.current) {
       observer.observe(footerRef.current);
@@ -44,7 +47,8 @@ export default function Home() {
             Hi, I’m Nicole!
           </h1>
           <p className="text-[#e13400] text-l font-medium leading-relaxed text-balance">
-            I’m a product designer with a behavioural psychology background, creating research-driven solutions that solve real-world problems.
+            I’m a product designer with a behavioural psychology background,
+            creating research-driven solutions that solve real-world problems.
           </p>
         </section>
 
@@ -106,9 +110,11 @@ export default function Home() {
 
       {/* Walking Dog aligned with Navbar Fish logo and touching Footer */}
       <div className="w-full pl-10 mt-24 hidden lg:block">
-        <img
+        <Image
           src="/walking-dog.png"
           alt="Walking Dog"
+          width={400}
+          height={120}
           className="h-[120px] w-auto object-contain opacity-90 transition-opacity hover:opacity-100"
         />
       </div>
