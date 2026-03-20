@@ -24,7 +24,11 @@ const menuGroups = [
     label: "Contact",
     items: [
       { label: "Email", href: "mailto:nicoleeyts1@gmail.com" },
-      { label: "LinkedIn", href: "https://linkedin.com/", external: true },
+      {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/nicoleyproduct",
+        external: true,
+      },
       { label: "X", href: "https://twitter.com/", external: true },
     ],
   },
@@ -37,8 +41,11 @@ interface SidebarProps {
 export default function Sidebar({ hidden }: SidebarProps) {
   return (
     <aside
-      className={`fixed top-[140px] left-10 z-40 flex flex-col gap-10 transition-all duration-500 ${hidden ? "opacity-0 pointer-events-none translate-x-[-20px]" : "opacity-100"
-        }`}
+      className={`fixed top-[140px] left-10 z-40 flex flex-col gap-10 transition-all duration-500 ${
+        hidden
+          ? "opacity-0 pointer-events-none translate-x-[-20px]"
+          : "opacity-100"
+      }`}
     >
       {menuGroups.map((group) => (
         <div key={group.label} className="flex flex-col gap-4">

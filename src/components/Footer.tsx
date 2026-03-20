@@ -44,7 +44,7 @@ export default function Footer({ footerRef }: FooterProps) {
           <Mail size={28} strokeWidth={1.5} />
         </a>
         <a
-          href="https://linkedin.com/in/nicoleyts"
+          href="https://www.linkedin.com/in/nicoleyproduct"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-110 transition-transform opacity-90 hover:opacity-100"

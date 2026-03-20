@@ -70,7 +70,7 @@ export default function Home() {
             projectArea="Add a feature"
             industry="Finance Technology"
             role="Redesigned the core investment platform to improve user engagement and simplify complex financial data visualization for retail investors."
-            visitSiteUrl="#"
+            visitSiteUrl="https://contra.com/p/LOgceg2b-fintech-ui-budget-feature?r=nicole_cwzib6rq"
           />
         </section>
 
@@ -92,7 +92,7 @@ export default function Home() {
             projectArea="Application Design"
             industry="Health Technology"
             role="Created an intuitive learning management system for K-12 students, focusing on accessibility and gamified progress tracking."
-            visitSiteUrl="#"
+            visitSiteUrl="https://contra.com/p/vbesoelk-easing-tele-health-communication-with-vitalink?r=nicole_cwzib6rq"
           />
         </section>
 
