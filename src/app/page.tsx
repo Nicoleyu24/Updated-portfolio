@@ -96,6 +96,7 @@ export default function Home() {
             industry="Health Technology"
             role="Created an intuitive learning management system for K-12 students, focusing on accessibility and gamified progress tracking."
             visitSiteUrl="https://contra.com/p/vbesoelk-easing-tele-health-communication-with-vitalink?r=nicole_cwzib6rq"
+            videoThumbnail="/vitalink-thumbnail.mp4"
           />
         </section>
 
