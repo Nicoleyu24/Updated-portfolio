@@ -93,7 +93,7 @@ export default function Home() {
             company="TXF Challenge"
             projectArea="Website Design"
             industry="Health Technology"
-            role="Stay tuned for more case studies and design projects currently in development."
+            role="Designed the case study page for a client fitness app, translating the design process into a clear and compelling narrative."
             videoThumbnail="/txf-thumbnail.mp4"
           />
         </section>
@@ -104,7 +104,7 @@ export default function Home() {
             company="Adventure with Sprout"
             projectArea="Game Design"
             industry="Education Technology"
-            role="Developed an educational gaming experience focused on environmental awareness and sustainability for young learners."
+            role="Co-created a web based game at a hackathon with a developer, designing an engaging and accessible experience that helps young children on the autism spectrum build social skills through play."
             visitSiteUrl="https://devpost.com/software/adventures-with-sprout"
             videoThumbnail="/adventure-thumbnail.mp4"
           />
