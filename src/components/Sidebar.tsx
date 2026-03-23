@@ -7,11 +7,11 @@ const menuGroups = [
   {
     label: "Projects",
     items: [
-      { label: "TapIn", href: "#healthcare" },
       { label: "KOHO", href: "#fintech" },
-      { label: "TXF", href: "#other" },
+      { label: "TapIn", href: "#healthcare" },
       { label: "Vitalink", href: "#edtech" },
-      { label: "Adventure", href: "#gaming" },
+      { label: "TXF", href: "#other" },
+      { label: "Sprout", href: "#gaming" },
     ],
   },
   {

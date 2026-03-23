@@ -52,27 +52,38 @@ export default function Home() {
           </p>
         </section>
 
-        <section id="healthcare" className="w-full flex justify-center">
-          <ProjectCard
-            year="2025"
-            company="TapIn"
-            projectArea="Website Design"
-            industry="Community Technology"
-            role="Led the design of the public launch of Mainstay, Opendoor's enterprise branch, from the full website experience to brand identity."
-            visitSiteUrl="#"
-            videoThumbnail="/tapin-thumbnail.mp4"
-          />
-        </section>
-
         <section id="fintech" className="w-full flex justify-center">
           <ProjectCard
             year="2025"
             company="KOHO"
             projectArea="Add a feature"
             industry="Finance Technology"
-            role="Redesigned the core investment platform to improve user engagement and simplify complex financial data visualization for retail investors."
+            role="Designed a smart budgeting feature for KOHO that bridges spending visibility with saving actions for young adult users. Driving engagement with Vaults that earn interest."
             visitSiteUrl="https://contra.com/p/LOgceg2b-fintech-ui-budget-feature?r=nicole_cwzib6rq"
             videoThumbnail="/koho-thumbnail.mp4"
+          />
+        </section>
+
+        <section id="healthcare" className="w-full flex justify-center">
+          <ProjectCard
+            year="2025"
+            company="TapIn"
+            projectArea="Website Design"
+            industry="Community Technology"
+            role="Led the website experience for a community tech platform that removes friction from social connection at events, helping people spend less time on logistics and more time on building meaningful connections."
+            videoThumbnail="/tapin-thumbnail.mp4"
+          />
+        </section>
+
+        <section id="edtech" className="w-full flex justify-center">
+          <ProjectCard
+            year="2025"
+            company="Vitalink"
+            projectArea="Application Design"
+            industry="Health Technology"
+            role="Designed an end-to-end telehealth app that helps North Americans find the right physician for their needs and streamline the booking process from search to appointment."
+            visitSiteUrl="https://contra.com/p/vbesoelk-easing-tele-health-communication-with-vitalink?r=nicole_cwzib6rq"
+            videoThumbnail="/vitalink-thumbnail.mp4"
           />
         </section>
 
@@ -83,20 +94,7 @@ export default function Home() {
             projectArea="Website Design"
             industry="Health Technology"
             role="Stay tuned for more case studies and design projects currently in development."
-            visitSiteUrl="#"
             videoThumbnail="/txf-thumbnail.mp4"
-          />
-        </section>
-
-        <section id="edtech" className="w-full flex justify-center">
-          <ProjectCard
-            year="2025"
-            company="Vitalink"
-            projectArea="Application Design"
-            industry="Health Technology"
-            role="Created an intuitive learning management system for K-12 students, focusing on accessibility and gamified progress tracking."
-            visitSiteUrl="https://contra.com/p/vbesoelk-easing-tele-health-communication-with-vitalink?r=nicole_cwzib6rq"
-            videoThumbnail="/vitalink-thumbnail.mp4"
           />
         </section>
 
@@ -108,6 +106,7 @@ export default function Home() {
             industry="Education Technology"
             role="Developed an educational gaming experience focused on environmental awareness and sustainability for young learners."
             visitSiteUrl="https://devpost.com/software/adventures-with-sprout"
+            videoThumbnail="/adventure-thumbnail.mp4"
           />
         </section>
       </main>

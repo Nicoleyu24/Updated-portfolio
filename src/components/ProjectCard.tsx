@@ -47,17 +47,22 @@ export function ProjectCard({
           )}
         </h2>
 
-        <p className="text-[#4A4A4A] text-lg leading-relaxed max-w-2xl font-normal">
+        <p className="text-[#4A4A4A] text-lg leading-relaxed max-w-[1000px] font-normal">
           {role}
         </p>
 
-        <a
-          href={visitSiteUrl}
-          className="group/link text-primary font-bold text-xs tracking-[0.2em] flex items-center gap-3 hover:gap-4 transition-all w-fit uppercase"
-        >
-          VISIT SITE
-          <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
-        </a>
+        {visitSiteUrl && visitSiteUrl !== "#" && (
+          <a
+            href={visitSiteUrl}
+            {...(visitSiteUrl.startsWith("http")
+              ? { target: "_blank", rel: "noopener noreferrer" }
+              : {})}
+            className="group/link text-primary font-bold text-xs tracking-[0.2em] flex items-center gap-3 hover:gap-4 transition-all w-fit uppercase"
+          >
+            VISIT SITE
+            <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
+          </a>
+        )}
 
         {videoThumbnail ? (
           <div className="w-full aspect-[16/10] bg-muted/30 rounded-[40px] border border-border/40 overflow-hidden relative shadow-sm block">
