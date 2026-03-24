@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 const menuGroups = [
   {
     label: "About",
-    href: "#about",
+    href: "/about",
     items: [],
   },
   {
@@ -17,9 +19,21 @@ const menuGroups = [
   {
     label: "Design Engineering",
     items: [
-      { label: "Healthcare", href: "#" },
-      { label: "Fintech", href: "#" },
-      { label: "Edtech", href: "#" },
+      {
+        label: "Cardy",
+        href: "https://contra.com/community/cgq2MrgX-no-more-elbowing-each-others-for",
+        external: true,
+      },
+    ],
+  },
+  {
+    label: "Side Project",
+    items: [
+      {
+        label: "Moodie",
+        href: "https://www.nicoleyts.work/case-studies/moodie",
+        external: true,
+      },
     ],
   },
   {
@@ -52,12 +66,12 @@ export default function Sidebar({ hidden }: SidebarProps) {
       {menuGroups.map((group) => (
         <div key={group.label} className="flex flex-col gap-4">
           {group.href ? (
-            <a
+            <Link
               href={group.href}
               className="text-[#e13400] text-[15px] font-medium no-underline"
             >
               {group.label}
-            </a>
+            </Link>
           ) : (
             <span className="text-[#e13400] text-[15px] font-medium">
               {group.label}
