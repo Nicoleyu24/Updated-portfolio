@@ -35,7 +35,7 @@ export default function AboutPage() {
         <div className="max-w-[830px] mx-auto px-8 pb-24">
           {/* Page title */}
           <h1 className="text-center text-[#e13400] text-6xl font-bold mb-16">
-            About me.
+            About me
           </h1>
 
           {/* In a nutshell */}

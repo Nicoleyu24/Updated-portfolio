@@ -3,7 +3,7 @@ import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 export const metadata: Metadata = {
-  title: "Nicole Yu — UX Designer",
+  title: "Nicole Yu — README.md",
   description: "Portfolio of Nicole Yu, UX Designer",
   icons: {
     icon: "/favicon.png",
