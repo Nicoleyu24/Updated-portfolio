@@ -45,7 +45,11 @@ const menuGroups = [
         href: "https://www.linkedin.com/in/nicoleyproduct",
         external: true,
       },
-      { label: "X", href: "https://twitter.com/", external: true },
+      {
+        label: "Github",
+        href: "https://github.com/Nicoleyu24",
+        external: true,
+      },
     ],
   },
 ];
