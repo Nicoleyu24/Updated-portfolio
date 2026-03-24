@@ -9,11 +9,23 @@ const menuGroups = [
   {
     label: "Projects",
     items: [
-      { label: "KOHO", href: "#fintech" },
-      { label: "TapIn", href: "#healthcare" },
-      { label: "Vitalink", href: "#edtech" },
-      { label: "TXF", href: "#other" },
-      { label: "Sprout", href: "#gaming" },
+      {
+        label: "KOHO",
+        href: "https://contra.com/p/LOgceg2b-fintech-ui-budget-feature?r=nicole_cwzib6rq",
+        external: true,
+      },
+      { label: "TapIn", href: "#healthcare", disabled: true },
+      {
+        label: "Vitalink",
+        href: "https://contra.com/p/vbesoelk-easing-tele-health-communication-with-vitalink?r=nicole_cwzib6rq",
+        external: true,
+      },
+      { label: "TXF", href: "#other", disabled: true },
+      {
+        label: "Sprout",
+        href: "https://devpost.com/software/adventures-with-sprout",
+        external: true,
+      },
     ],
   },
   {
@@ -82,18 +94,27 @@ export default function Sidebar({ hidden }: SidebarProps) {
             </span>
           )}
 
-          {group.items.map((item) => (
-            <a
-              key={item.label}
-              href={item.href}
-              className="text-[#666] text-[15px] no-underline transition-colors hover:text-[#1a1a1a]"
-              {...(item.external
-                ? { target: "_blank", rel: "noopener noreferrer" }
-                : {})}
-            >
-              {item.label}
-            </a>
-          ))}
+          {group.items.map((item) =>
+            item.disabled ? (
+              <span
+                key={item.label}
+                className="text-[#666] text-[15px] cursor-default"
+              >
+                {item.label}
+              </span>
+            ) : (
+              <a
+                key={item.label}
+                href={item.href}
+                className="text-[#666] text-[15px] no-underline transition-colors hover:text-[#1a1a1a]"
+                {...(item.external
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
+              >
+                {item.label}
+              </a>
+            ),
+          )}
         </div>
       ))}
     </aside>
