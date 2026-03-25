@@ -24,6 +24,11 @@ const menuGroups = [
         href: "https://contra.com/community/cgq2MrgX-no-more-elbowing-each-others-for",
         external: true,
       },
+      {
+        label: "Motion Lab",
+        href: "https://motionlabnyfish.vercel.app/",
+        external: true,
+      },
     ],
   },
   {
