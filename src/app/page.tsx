@@ -52,6 +52,18 @@ export default function Home() {
           </p>
         </section>
 
+        <section id="healthcare" className="w-full flex justify-center">
+          <ProjectCard
+            year="2025"
+            company="TapIn"
+            projectArea="Website Design"
+            industry="Community Technology"
+            role="Led the website experience for a community tech platform that removes friction from social connection at events, helping people spend less time on logistics and more time on building meaningful connections."
+            videoThumbnail="/tapin-thumbnail.mp4"
+            visitSiteUrl="https://contra.com/p/NkRNlskY-product-launch-website-design?r=nicole_cwzib6rq"
+          />
+        </section>
+
         <section id="fintech" className="w-full flex justify-center">
           <ProjectCard
             year="2025"
@@ -61,17 +73,6 @@ export default function Home() {
             role="Designed a smart budgeting feature for KOHO that bridges spending visibility with saving actions for young adult users. Driving engagement with Vaults that earn interest."
             visitSiteUrl="https://contra.com/p/LOgceg2b-fintech-ui-budget-feature?r=nicole_cwzib6rq"
             videoThumbnail="/koho-thumbnail.mp4"
-          />
-        </section>
-
-        <section id="healthcare" className="w-full flex justify-center">
-          <ProjectCard
-            year="2025"
-            company="TapIn"
-            projectArea="Website Design"
-            industry="Community Technology"
-            role="Led the website experience for a community tech platform that removes friction from social connection at events, helping people spend less time on logistics and more time on building meaningful connections."
-            videoThumbnail="/tapin-thumbnail.mp4"
           />
         </section>
 

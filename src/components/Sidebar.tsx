@@ -9,8 +9,8 @@ const menuGroups = [
   {
     label: "Projects",
     items: [
-      { label: "KOHO", href: "/#fintech" },
       { label: "TapIn", href: "/#healthcare" },
+      { label: "KOHO", href: "/#fintech" },
       { label: "Vitalink", href: "/#edtech" },
       { label: "TXF", href: "/#other" },
       { label: "Sprout", href: "/#gaming" },
