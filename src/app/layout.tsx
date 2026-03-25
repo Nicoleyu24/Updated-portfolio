@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Nicole Yu — README.md",
   description: "Portfolio of Nicole Yu, UX Designer",
   icons: {
-    icon: "/favicon.png",
+    icon: "/Favicon.png",
   },
 };
 
