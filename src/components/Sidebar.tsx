@@ -55,6 +55,11 @@ const menuGroups = [
         href: "https://github.com/Nicoleyu24",
         external: true,
       },
+      {
+        label: "Contra",
+        href: "https://contra.com/nicole_cwzib6rq/work?r=nicole_cwzib6rq",
+        external: true,
+      },
     ],
   },
 ];
