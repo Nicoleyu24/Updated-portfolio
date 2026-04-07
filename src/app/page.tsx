@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import { ProjectCard } from "@/components/ProjectCard";
 import Footer from "@/components/Footer";
+import ChatBot from "@/components/ChatBot";
 
 export default function Home() {
   const [isFooterVisible, setIsFooterVisible] = useState(false);
@@ -124,6 +125,7 @@ export default function Home() {
       </div>
 
       <Footer footerRef={footerRef} />
+      <ChatBot hidden={isFooterVisible} />
     </>
   );
 }
