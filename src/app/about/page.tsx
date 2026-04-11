@@ -63,7 +63,7 @@ export default function AboutPage() {
             <h2 className="text-[#e13400] text-2xl font-normal mb-6">
               Personal life
             </h2>
-            <p className="text-[#1a1a1a] text-base leading-relaxed">
+            <p className="text-[#1a1a1a] text-base leading-relaxed mb-5">
               When I&apos;m not designing, I will be printing cute stuff with my
               3D printer, learning new skills, playing volleyball, piano, taking
               a long walk with my imaginary pup hehe, and photographing (you can
@@ -77,6 +77,18 @@ export default function AboutPage() {
                 @momentwithnini
               </a>
               ).
+            </p>
+            <p className="text-[#1a1a1a] text-base leading-relaxed">
+              I also enjoy article writing. You can read my work on{" "}
+              <a
+                href="https://medium.com/@nicoleyu324"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#e13400] hover:opacity-70 transition-opacity"
+              >
+                Medium
+              </a>
+              .
             </p>
           </section>
 

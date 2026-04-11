@@ -36,7 +36,7 @@ const menuGroups = [
     items: [
       {
         label: "Moodie",
-        href: "https://www.nicoleyts.work/case-studies/moodie",
+        href: "https://contra.com/p/qBUvgoXs-design-and-development-of-moodie-cbt-app?r=nicole_cwzib6rq",
         external: true,
       },
     ],
