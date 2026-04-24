@@ -65,6 +65,18 @@ export default function Home() {
           />
         </section>
 
+        <section id="tabiwell" className="w-full flex justify-center">
+          <ProjectCard
+            year="2025"
+            company="Tabi Well-bing"
+            projectArea="User Research"
+            industry="Healthcare Technology"
+            role="How might a wellbeing product support progress without pressure? This case study explores using behavioural design to turn reflection into action in an early stage healthtech product."
+            visitSiteUrl="https://contra.com/p/brlAlXgb-healthcare-design-for-sustainable-behaviour-change-in-wellbeing?r=nicole_cwzib6rq"
+            videoThumbnail="/tabi-thumbnail.mp4"
+          />
+        </section>
+
         <section id="fintech" className="w-full flex justify-center">
           <ProjectCard
             year="2025"
@@ -97,6 +109,7 @@ export default function Home() {
             industry="Health Technology"
             role="Designed the case study page for a client fitness app, translating the design process into a clear and compelling narrative."
             videoThumbnail="/txf-thumbnail.mp4"
+            comingSoon
           />
         </section>
 

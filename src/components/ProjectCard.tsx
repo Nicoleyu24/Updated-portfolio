@@ -11,6 +11,7 @@ interface ProjectCardProps {
   visitSiteUrl?: string;
   thumbnail?: string;
   videoThumbnail?: string;
+  comingSoon?: boolean;
 }
 
 export function ProjectCard({
@@ -22,6 +23,7 @@ export function ProjectCard({
   visitSiteUrl = "#",
   thumbnail,
   videoThumbnail,
+  comingSoon,
 }: ProjectCardProps) {
   return (
     <div className="w-full max-w-[1000px] mt-0 mb-48 group animate-in fade-in duration-1000 slide-in-from-bottom-12">
@@ -51,7 +53,11 @@ export function ProjectCard({
           {role}
         </p>
 
-        {visitSiteUrl && visitSiteUrl !== "#" && (
+        {comingSoon ? (
+          <span className="text-[#9BA1A6] font-bold text-xs tracking-[0.2em] uppercase">
+            COMING SOON
+          </span>
+        ) : visitSiteUrl && visitSiteUrl !== "#" ? (
           <a
             href={visitSiteUrl}
             {...(visitSiteUrl.startsWith("http")
@@ -62,7 +68,7 @@ export function ProjectCard({
             VISIT SITE
             <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
           </a>
-        )}
+        ) : null}
 
         {videoThumbnail ? (
           <div className="w-full aspect-[16/10] bg-muted/30 rounded-[40px] border border-border/40 overflow-hidden relative shadow-sm block">
