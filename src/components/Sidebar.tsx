@@ -33,6 +33,11 @@ const menuGroups = [
         href: "https://motionlabnyfish.vercel.app/",
         external: true,
       },
+      {
+        label: "BombMazing",
+        href: "https://bombmazing.vercel.app/",
+        external: true,
+      },
     ],
   },
   {
