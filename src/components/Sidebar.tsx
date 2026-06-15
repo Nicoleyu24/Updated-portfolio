@@ -24,6 +24,11 @@ const menuGroups = [
     label: "Design Engineering",
     items: [
       {
+        label: "Mini Fun Games",
+        href: "https://mini-fun-games.vercel.app/",
+        external: true,
+      },
+      {
         label: "Cardy",
         href: "https://contra.com/community/cgq2MrgX-no-more-elbowing-each-others-for",
         external: true,
@@ -31,11 +36,6 @@ const menuGroups = [
       {
         label: "Motion Lab",
         href: "https://motionlabnyfish.vercel.app/",
-        external: true,
-      },
-      {
-        label: "BombMazing",
-        href: "https://bombmazing.vercel.app/",
         external: true,
       },
     ],
